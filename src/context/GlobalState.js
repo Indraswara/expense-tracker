@@ -26,11 +26,3 @@ export const GlobalProvider = ({children}) => {
         </GlobalContext.Provider>
     )
 }
-
-// App reducer
-const AppReducer = (state, action) => {
-    switch(action.type) {
-        default:
-            return state;
-    }
-}
